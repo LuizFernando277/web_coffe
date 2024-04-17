@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(90deg, black, rgb(73, 73, 73));
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+article{
+    height: 590px;
+}
+
+p{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #8d380c;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #8d380c;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #8d380c;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #8d380c;
+    color: white;
+}
